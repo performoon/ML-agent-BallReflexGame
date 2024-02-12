@@ -1,6 +1,6 @@
 ベース：https://qiita.com/TanakaSU/items/3221d7fe641aa7fd9006
 ***
 参考記事：
-[Gym形式の強化学習環境の基本]<https://developers.agirobots.com/jp/openai-gym-custom-env/>
+[Gym形式の強化学習環境の基本](https://developers.agirobots.com/jp/openai-gym-custom-env/)
 ***
 報酬：111行目に報酬が設定されている。ゲームが続くと報酬が増えていき、ボールを落とすとリセットされる。記事の通り、1万回合計20万ステップ回した。最初の0回から1万回は83エピソードから始まり、19万から20万ステップは一桁までエピソード数が減っていた。（ゲームオーバーでエピソードが1カウント進む）
